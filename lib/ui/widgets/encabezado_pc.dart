@@ -26,7 +26,10 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   'Inicio',
-                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
+                  style: GoogleFonts.sansita(
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
                 ),
               )),
           FlatButton(
@@ -35,7 +38,10 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
                   'About',
-                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
+                  style: GoogleFonts.sansita(
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
                 ),
               )),
           FlatButton(
@@ -43,8 +49,10 @@ class EncabezadoPCState extends State<EncabezadoPC> {
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text('Experiencia',
-                    style:
-                        GoogleFonts.dosis(color: Colors.black, fontSize: 22)),
+                    style: GoogleFonts.sansita(
+                      color: Colors.white,
+                      fontSize: 18,
+                    )),
               )),
           FlatButton(
               onPressed: () {},
@@ -52,7 +60,10 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
                   'Proyectos',
-                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
+                  style: GoogleFonts.sansita(
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
                 ),
               )),
           FlatButton(
@@ -61,7 +72,10 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
                   'Contacto',
-                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
+                  style: GoogleFonts.sansita(
+                    color: Colors.white,
+                    fontSize: 18,
+                  ),
                 ),
               )),
           SizedBox(

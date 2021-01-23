@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:web/ui/widgets/banner_lateral_pc.dart';
 import 'package:web/ui/widgets/encabezado_pc.dart';
+import 'package:web/ui/widgets/inicio_pc.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
@@ -24,16 +25,17 @@ class _HomePageState extends State<HomePage> {
       if (media.width >= 1024) {
         // Diseño PC
         return Scaffold(
-            backgroundColor: Colors.white,
+            backgroundColor: Color.fromARGB(255, 0, 31, 49),
             body: Column(
               children: [
                 EncabezadoPC(),
                 Row(
                   children: [
                     BannerLateralPC(),
-                    Container(
-                      width: MediaQuery.of(context).size.width - 150,
-                      height: MediaQuery.of(context).size.height - 150,
+                    SingleChildScrollView(
+                      child: Column(
+                        children: [InicioPC()],
+                      ),
                     )
                   ],
                 )
