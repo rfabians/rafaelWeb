@@ -59,6 +59,9 @@ class _InicioPCState extends State<InicioPC> {
                           color: Colors.white, fontSize: 22))),
               SizedBox(width: 100),
             ],
+          ),
+          Row(
+            children: [],
           )
         ],
       ),

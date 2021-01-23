@@ -3,6 +3,7 @@ import 'dart:html';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:web/ui/widgets/about_pc.dart';
 
 class EncabezadoPC extends StatefulWidget {
   EncabezadoPC({Key key}) : super(key: key);
@@ -33,7 +34,11 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 ),
               )),
           FlatButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) {
+                  return AboutPC();
+                }));
+              },
               child: Padding(
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
@@ -43,16 +48,6 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                     fontSize: 18,
                   ),
                 ),
-              )),
-          FlatButton(
-              onPressed: () {},
-              child: Padding(
-                padding: const EdgeInsets.all(12.0),
-                child: Text('Experiencia',
-                    style: GoogleFonts.sansita(
-                      color: Colors.white,
-                      fontSize: 18,
-                    )),
               )),
           FlatButton(
               onPressed: () {},

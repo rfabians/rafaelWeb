@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web/ui/widgets/about_pc.dart';
 import 'package:web/ui/widgets/banner_lateral_pc.dart';
 import 'package:web/ui/widgets/encabezado_pc.dart';
 import 'package:web/ui/widgets/inicio_pc.dart';
@@ -34,7 +35,9 @@ class _HomePageState extends State<HomePage> {
                     BannerLateralPC(),
                     SingleChildScrollView(
                       child: Column(
-                        children: [InicioPC()],
+                        children: [
+                          InicioPC(),
+                        ],
                       ),
                     )
                   ],
