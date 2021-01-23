@@ -26,7 +26,7 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(8.0),
                 child: Text(
                   'Inicio',
-                  style: GoogleFonts.dosis(color: Colors.white, fontSize: 22),
+                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
                 ),
               )),
           FlatButton(
@@ -35,7 +35,7 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
                   'About',
-                  style: GoogleFonts.dosis(color: Colors.white, fontSize: 22),
+                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
                 ),
               )),
           FlatButton(
@@ -44,7 +44,7 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text('Experiencia',
                     style:
-                        GoogleFonts.dosis(color: Colors.white, fontSize: 22)),
+                        GoogleFonts.dosis(color: Colors.black, fontSize: 22)),
               )),
           FlatButton(
               onPressed: () {},
@@ -52,7 +52,7 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
                   'Proyectos',
-                  style: GoogleFonts.dosis(color: Colors.white, fontSize: 22),
+                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
                 ),
               )),
           FlatButton(
@@ -61,7 +61,7 @@ class EncabezadoPCState extends State<EncabezadoPC> {
                 padding: const EdgeInsets.all(12.0),
                 child: Text(
                   'Contacto',
-                  style: GoogleFonts.dosis(color: Colors.white, fontSize: 22),
+                  style: GoogleFonts.dosis(color: Colors.black, fontSize: 22),
                 ),
               )),
           SizedBox(

@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
       if (media.width >= 1024) {
         // Diseño PC
         return Scaffold(
-            backgroundColor: Color.fromARGB(255, 0, 17, 44),
+            backgroundColor: Colors.white,
             body: Column(
               children: [
                 EncabezadoPC(),

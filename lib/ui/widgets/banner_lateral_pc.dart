@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:js' as js;
 
 class BannerLateralPC extends StatefulWidget {
   BannerLateralPC({Key key}) : super(key: key);
@@ -19,24 +20,33 @@ class _BannerLateralPCState extends State<BannerLateralPC> {
           mainAxisAlignment: MainAxisAlignment.end,
           children: [
             FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  js.context
+                      .callMethod('open', ['https://github.com/rfabians']);
+                },
+                child: Image(image: AssetImage('github.png'))),
+            SizedBox(height: 10),
+            FlatButton(
+                onPressed: () {
+                  js.context.callMethod(
+                      'open', ['https://linkedin.com/in/rafaelfso']);
+                },
                 child: Image(image: AssetImage('linkedin.png'))),
             SizedBox(height: 10),
             FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  js.context
+                      .callMethod('open', ['https://twitter.com/Rfabians']);
+                },
                 child: Image(image: AssetImage('twitter.png'))),
             SizedBox(height: 10),
             FlatButton(
-                onPressed: () {},
+                onPressed: () {
+                  js.context
+                      .callMethod('open', ['https://instagram.com/rfabianso']);
+                },
                 child: Image(image: AssetImage('instagram.png'))),
             SizedBox(height: 10),
-            FlatButton(
-                onPressed: () {},
-                child: Image(image: AssetImage('facebook.png'))),
-            SizedBox(height: 10),
-            FlatButton(
-                onPressed: () {},
-                child: Image(image: AssetImage('whatsapp.png'))),
           ],
         ),
       ),
